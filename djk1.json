@@ -16,7 +16,7 @@
 {"name":"肥羊•YY","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/yylunbo.m3u","playerType":1},
 {"name":"初秋语•哔哩","type":0,"url":"./bili.m3u","playerType":1},
 {"name":"YuanHsing•油管","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"}
-],
+]，
 
   "wallpaper": "https://yydsys.top/bg.php",
 
@@ -26,22 +26,8 @@
 
   "sites": [
    
-    {
-      "key": "YGP",
-      "name": "🚀TH┃即将上映",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-{
-      "key": "直播转点播",
-      "name": "📛TH┃电视点播",
-      "type": 3,
-      "api": "./js/apiv53zbzdb.js",
-      "ext": "./js/dbiptv.json"
-},
+  
+
 {
       "key": "thfx_345看片",
       "name": "📛TH┃345看片",
