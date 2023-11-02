@@ -1,15 +1,22 @@
 {
   "spider": "https://jihulab.com/duomv/xduo/-/raw/main/ali.jar;md5;606BE3EE268CE371705DE93EC549C637",
   "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431",
-
-  "lives": 
-  [
-  {"name": "live",
-  "type": 0,
-  "url":"https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/tv/THtv.txt",
-  "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-  }
-  ],
+"lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"YanG•综合","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"范明明•综合","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"YueChan•综合","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"Yoursmile•综合","type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"饭太硬•综合","type":0,"url":"https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt","playerType":1,"ua": "okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"初秋语•电台","type":0,"url":"./radio.txt","playerType":1},
+{"name":"范明明•电台","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u","playerType":1},
+{"name":"肥羊•斗鱼","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/douyuyqk.m3u","playerType":1},
+{"name":"肥羊•虎牙","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/huyayqk.m3u","playerType":1},
+{"name":"肥羊•YY","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/yylunbo.m3u","playerType":1},
+{"name":"初秋语•哔哩","type":0,"url":"./bili.m3u","playerType":1},
+{"name":"YuanHsing•油管","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"}
+],
 
   "wallpaper": "https://yydsys.top/bg.php",
 
@@ -18,16 +25,7 @@
   "warningText": "【整挺好啊】接口免费，每次打开记得长按主页刷新！",
 
   "sites": [
-    {
-      "key": "js豆瓣",
-      "name": "📛微信公众号┃整挺好啊【2023-10-26接口更新】",
-      "type": 3,
-      "api": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/Api.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://agit.ai/XiaoYiChaHang/xxzb/raw/branch/master/hccx/Doubanrebo.js"
-    },
+   
     {
       "key": "YGP",
       "name": "🚀TH┃即将上映",
@@ -41,8 +39,8 @@
       "key": "直播转点播",
       "name": "📛TH┃电视点播",
       "type": 3,
-      "api": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/apiv53zbzdb.js",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/dbiptv.json"
+      "api": "./js/apiv53zbzdb.js",
+      "ext": "./js/dbiptv.json"
 },
 {
       "key": "thfx_345看片",
@@ -73,7 +71,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/jss/%E8%8A%B1%E7%8C%AB%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/jss/%E8%8A%B1%E7%8C%AB%E5%BD%B1%E8%A7%86.json"
      },
 
     {
@@ -84,7 +82,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/jss/66%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/jss/66%E5%BD%B1%E8%A7%86.json"
      },
 
     {
@@ -95,7 +93,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/jss/98%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/jss/98%E5%BD%B1%E8%A7%86.json"
      },
 
 {
@@ -106,7 +104,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E4%B9%90%E7%8C%AA%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/%E4%B9%90%E7%8C%AA%E5%BD%B1%E8%A7%86.json"
     },	  
 	  
 {
@@ -117,7 +115,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/Free%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/Free%E5%BD%B1%E8%A7%86.json"
     },
 
 	  
@@ -137,8 +135,8 @@
       "key": "畅梦",
       "name": "📛TH┃畅梦秒播",
       "type": 3,
-      "api": "https://ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/changmeng.js"
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/changmeng.js"
     },
      {
       "key": "csp_xBPQ_奇优",
@@ -148,7 +146,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.json"
+      "ext": "./js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.json"
     },
 {
       "key": "Aid",
@@ -169,8 +167,8 @@
 	"api": "csp_AList",
 	"searchable": 1,
 	"changeable": 0,
-	"ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/TH_alist.json",
-	"jar": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/custom_spider.jar"
+	"ext": "./js/TH_alist.json",
+	"jar": "./js/custom_spider.jar"
  },
     {
       "key": "csp_woggcli",
@@ -180,7 +178,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/tok.txt"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/tok.txt"
     },
     {
       "key": "csp_WoGG",
@@ -196,28 +194,28 @@
       "key": "drpy_js_优酷1",
       "name": "📛TH┃优酷(官源)",
       "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
       "ext": "https://pan.shangui.cc/f/MY1cy/youku.js"
     },
     {
       "key": "搜狗2",
       "name": "📛TH┃搜狗(官源)",
       "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
       "ext": "https://pan.shangui.cc/f/ZXQHv/sougou.js"
     },
     {
       "key": "腾讯2",
       "name": "📛TH┃腾讯(官源)",
       "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
       "ext": "https://pan.shangui.cc/f/EV3UD/tengxun.js"
     },
     {
       "key": "爱奇异",
       "name": "📛TH┃爱奇艺(官源)",
       "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yyfx/main/lib/drpy2.min.js",
       "ext": "https://pan.shangui.cc/f/2z4Fx/iqy.js"
     }, 
      {
@@ -228,7 +226,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.json"
+      "ext": "./js/%E5%A5%87%E4%BC%98%E5%BD%B1%E9%99%A2.json"
     },
      {
       "key": "csp_花猫",
@@ -238,7 +236,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E8%8A%B1%E7%8C%AB%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/%E8%8A%B1%E7%8C%AB%E5%BD%B1%E8%A7%86.json"
     },
   {
       "key": "csp_小鹿",
@@ -248,7 +246,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%B0%8F%E9%B9%BF%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/%E5%B0%8F%E9%B9%BF%E5%BD%B1%E8%A7%86.json"
     },
   {
       "key": "csp_345",
@@ -258,7 +256,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E7%9C%8B%E7%89%87%E5%BD%B1%E8%A7%86.json"
+      "ext": "./js/%E7%9C%8B%E7%89%87%E5%BD%B1%E8%A7%86.json"
     },
  {
       "key": "探探",
@@ -1434,7 +1432,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%A7%91%E5%AD%A6.json"
+      "ext": "./js/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%A7%91%E5%AD%A6.json"
     },
     {
       "key": "小灯塔地理",
@@ -1444,7 +1442,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9C%B0%E7%90%86.json"
+      "ext": "./js/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9C%B0%E7%90%86.json"
     },
     {
       "key": "小灯塔百科",
@@ -1454,7 +1452,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%99%BE%E7%A7%91.json"
+      "ext": "./js/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%99%BE%E7%A7%91.json"
     },
     {
       "key": "小灯塔国学",
@@ -1464,7 +1462,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/ZTHA000/tvbox/main/js/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
+      "ext": "./js/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
     },
 	  
 //爬虫资源
