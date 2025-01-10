@@ -1,4 +1,3 @@
-EPG名称,APP地址
 大陆央视,#genre#
 CCTV1,P2p://starvod.xyz:19806/9ceaa547a0a940f9b4525825ccc94d17
 CCTV2,P2p://starvod.xyz:19806/54a9cc9d06a94654b51ade24a31a2057
